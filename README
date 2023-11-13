@@ -1,0 +1,24 @@
+Requirements: 
+
+The pattern starts with 1 and increments by 1 
+
+Numbers divisible by 3 are replaced with “fizz” 
+
+Numbers divisible by 5 are replaces with “buzz” 
+
+Numbers divisible by 15 are replaces with “fizz buzz” 
+
+Incorrect input (doesn’t match pattern or incorrect string) or longer than 5 seconds to respond from user ends the game 
+ 
+
+Should be focused on running efficiently 
+
+Design: 
+
+Written in Python 
+
+While loop for the core of program 
+
+Checks divisibility for 15, 5, then 3 using if statements 
+
+User inputs items one by one  
