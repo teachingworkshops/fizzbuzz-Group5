@@ -21,7 +21,18 @@ import G5_FizzBuzz as fb
                             (1, 1, True),
                             (2, 2, True),
                             (11, 11, True),
-                            (28, 28, True)])
+                            (28, 28, True),
+                            (-99, 1, False),
+                            (-1, 1, False),
+                            (4, 4, True),
+                            (7, 7, True),
+                            ("Fizz", 9, True),
+                            ("Buzz", 10, True),
+                            (11, 11, True),
+                            (14, 14, True),
+                            (16, 16, True),
+                            (29, 29, True),
+                            ("fizz buzz", 30, True)])
 
 def test_fizzbuzz(a, b, expected):
     assert fb.checkFizzBuzz(a, b) == expected
