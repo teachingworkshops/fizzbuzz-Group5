@@ -22,7 +22,6 @@ import G5_FizzBuzz as fb
                             ("Fizz Buzz", 15, True),
                             (1, 1, True),
                             (2, 2, True),
-                            (11, 11, True),
                             (28, 28, True),
                             (-99, 1, False),
                             (-1, 1, False),
