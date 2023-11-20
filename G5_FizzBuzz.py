@@ -4,7 +4,7 @@ i = 1
 def checkFizzBuzz(x, i): 
     try:
         x = int(x)
-        if (x < 1):
+        if (x < 1 or i < 1):
             return False 
         
         if (i == x):
